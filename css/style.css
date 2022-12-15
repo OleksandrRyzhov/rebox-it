@@ -593,10 +593,6 @@ html {
   transition: background-color 0.3s ease 0s;
 }
 
-.menu-top-header__item.active {
-  background-color: #3a3a3c;
-}
-
 .menu-top-header__link {
   display: block;
   padding: 1.5rem 0.5rem;
@@ -3655,6 +3651,12 @@ html {
 
   .no-webp .item-banners__five {
     background: url(../img/home/banners/banner-5/bg.png) center/cover no-repeat; }
+}
+
+@media (min-width: 68.75em) {
+  .menu-top-header__item.active {
+    background-color: #3a3a3c;
+  }
 }
 
 @media (min-width: 48em) {
