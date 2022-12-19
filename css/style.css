@@ -3488,8 +3488,7 @@ html {
   overflow: hidden;
 }
 
-.article-blog__picture img,
-.article-blog__video img {
+.article-blog__picture img {
   min-width: 100%;
   min-height: 100%;
 }
