@@ -1566,7 +1566,11 @@ html {
 .sitemap__inner {
   display: flex;
   flex-direction: column;
-  gap: 3.75rem;
+  gap: 2.5rem;
+}
+
+.sitemap__inner .sitemap-page {
+  margin-top: 2.5rem;
 }
 
 .products {
@@ -4866,6 +4870,10 @@ html {
   .item-blog__image img {
     max-height: 10.875rem;
     opacity: 1;
+  }
+
+  .sitemap__inner .sitemap-page {
+    margin-top: 1.75rem;
   }
 
   .products {
