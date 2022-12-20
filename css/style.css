@@ -1569,7 +1569,7 @@ html {
   gap: 2.5rem;
 }
 
-.sitemap__inner .sitemap-page {
+.sitemap__inner.sitemap-page {
   margin-top: 2.5rem;
 }
 
@@ -4872,7 +4872,7 @@ html {
     opacity: 1;
   }
 
-  .sitemap__inner .sitemap-page {
+  .sitemap__inner.sitemap-page {
     margin-top: 1.75rem;
   }
 
