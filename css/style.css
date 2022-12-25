@@ -7454,7 +7454,7 @@ html {
 
   .tab-news:hover {
     border-color: #ff6f42;
-    color: #171717;
+    color: inherit;
   }
 
   .tab-news:active {
