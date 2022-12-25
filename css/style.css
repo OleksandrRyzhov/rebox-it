@@ -7261,6 +7261,7 @@ html {
 
   .item-bestsellers__title:hover {
     color: #ff6f42;
+    font-weight: 700;
   }
 
   .item-bestsellers__title:active {
@@ -7316,6 +7317,7 @@ html {
 
   .item-categories__title:hover {
     color: #ff6f42;
+    font-weight: 700;
   }
 
   .item-categories__title:active {
@@ -7355,6 +7357,7 @@ html {
 
   .item-recommended__title:hover {
     color: #ff6f42;
+    font-weight: 700;
   }
 
   .item-recommended__title:active {
