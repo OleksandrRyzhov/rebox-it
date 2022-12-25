@@ -515,6 +515,16 @@ html {
   color: #171717;
 }
 
+.slick-btn.slick-disabled:hover {
+  background-color: rgba(23, 23, 23, 0.05);
+  color: #171717;
+}
+
+.slick-btn.slick-disabled:active {
+  background-color: rgba(23, 23, 23, 0.05);
+  color: #171717;
+}
+
 .slick-prev {
   translate: calc(-100% - 0.75rem) 0;
 }
