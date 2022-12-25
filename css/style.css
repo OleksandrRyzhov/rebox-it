@@ -7463,6 +7463,10 @@ html {
     background-color: #ff6f42;
   }
 
+  .tab-news.tab--active:hover {
+    color: #fff;
+  }
+
   .content-news__picture:hover {
     opacity: 1;
   }
