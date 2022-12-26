@@ -654,12 +654,14 @@ html {
   font-size: 1.0625rem;
   width: 3.75rem;
   height: 2.5rem;
+  color: #fff;
   background-color: #ff6f42;
-  transition: background-color 0.3s ease 0s;
+  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
 }
 
 .search-header__button:active {
   background-color: #d8dfe9;
+  color: #171717;
 }
 
 .actions-header {
@@ -7146,6 +7148,7 @@ html {
 
   .search-header__button:active {
     background-color: #d8dfe9;
+    color: #171717;
   }
 
   .actions-header__help:hover {
