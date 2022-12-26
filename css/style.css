@@ -635,6 +635,7 @@ html {
   line-height: 1.25rem;
   padding: 0.625rem 1.25rem;
   color: #171717;
+  caret-color: #ff6f42;
   transition: color 0.3s ease 0s;
 }
 
@@ -655,6 +656,10 @@ html {
   height: 2.5rem;
   background-color: #ff6f42;
   transition: background-color 0.3s ease 0s;
+}
+
+.search-header__button:active {
+  background-color: #d8dfe9;
 }
 
 .actions-header {
@@ -2088,6 +2093,19 @@ html {
   line-height: 1.4117647059;
   color: #707070;
   transition: color 0.3s ease 0s;
+}
+
+.brands-banners__link:active > span {
+  color: #707070;
+}
+
+.brands-banners__link:active .brands-banners__icon {
+  background-color: #171717;
+  color: #fff;
+}
+
+.brands-banners__link:active .brands-banners__chat {
+  background-color: #3a3a3c;
 }
 
 .brands-banners__icon,
@@ -3967,6 +3985,10 @@ html {
   transition: background-color 0.3s ease 0s;
 }
 
+.page-404__btn:active {
+  background-color: #3a3a3c;
+}
+
 /* </page-404> ========== */
 
 /* </MAIN> ================================================== */
@@ -4047,6 +4069,10 @@ html {
   transition: color 0.3s ease 0s;
 }
 
+.footer__link:active {
+  color: inherit;
+}
+
 .footer__contacts {
   display: flex;
   flex-direction: column;
@@ -4082,6 +4108,7 @@ html {
 .footer__phone::before {
   color: #ff6f42;
   font-size: 1.125rem;
+  transition: color 0.3s ease 0s;
 }
 
 .footer__email span,
@@ -4121,6 +4148,11 @@ html {
   border-radius: 50%;
   font-size: 1.125rem;
   transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
+}
+
+.social__link:active {
+  background-color: #fff;
+  color: #ff6f42;
 }
 
 .social__instagram {
@@ -7108,6 +7140,10 @@ html {
     background-color: #3a3a3c;
   }
 
+  .search-header__button:active {
+    background-color: #d8dfe9;
+  }
+
   .actions-header__help:hover {
     background-color: #3a3a3c;
   }
@@ -7504,6 +7540,10 @@ html {
 
   .page-404__btn:hover {
     background-color: #171717;
+  }
+
+  .page-404__btn:active {
+    background-color: #3a3a3c;
   }
 
   .footer__link:hover {
