@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="preconnect" href="//fonts.googleapis.com">
+		<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+		<link href="//fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Inter:wght@400;600&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;700&family=Roboto:wght@300&display=swap&_v=20230130172912" rel="stylesheet">
+		<link rel="preconnect" href="//cdn.jsdelivr.net">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20230130172912">
+		<link rel="stylesheet" href="../css/style.min.css?_v=20230130172912">
+		<title>Account Order History</title>
+	</head>
+  <body>
+		<div class="wrapper">
+			<header class="header ">
+        <div class="header__top top-header">
+          <div class="top-header__inner">
+            <a class="header__logo" href="../">
+              <img src="../img/icons/icons.svg#header-logo" alt="logo">
+            </a>
+            <nav class="top-header__menu menu-top-header">
+              <ul class="menu-top-header__list" data-da=".menu__inner,1099.98">
+                <li class="menu-top-header__item">
+                  <a class="menu-top-header__link" href="../about.html">About us</a>
+                </li>
+                <li class="menu-top-header__item">
+                  <a class="menu-top-header__link" href="../benefits.html">Benefits</a>
+                </li>
+                <li class="menu-top-header__item">
+                  <a class="menu-top-header__link" href="../blog.html">Blog</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__search search-header" data-da=".bottom-header__inner,991.98">
+              <form class="search-header__form" action="#">
+                <input class="search-header__input" type="text" autocomplete="off" name="form[]" data-error="Error" placeholder="Try Macbook Air...">
+                <button class="search-header__button _icon-search" type="submit"></button>
+              </form>
+            </div>
+            <div class="top-header__actions actions-header">
+              <a class="actions-header__help" data-da=".menu__inner,991.98" href="#">Help</a>
+              <a class="actions-header__user _icon-user" href="../account/personal-data.html"><span>Account</span></a>
+              <a class="actions-header__favorite favorite-header" href="#">
+                <div class="favorite-header__icon _icon-favorite"><span>0</span></div>
+                <p class="favorite-header__link">Wish List</p>
+              </a>
+              <a class="actions-header__cart cart-header" href="#">
+                <div class="cart-header__icon _icon-cart"><span>0</span></div>
+                <p class="cart-header__link">Cart</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom bottom-header">
+          <div class="bottom-header__inner">
+            <div class="header__menu menu" data-da=".top-header__inner,991.98,first">
+              <button class="menu__icon icon-menu" type="button">
+                <span class="icon-menu__line"></span>
+                <span class="icon-menu__text">All our products</span>
+              </button>
+              <div class="menu__wrapper">
+                <nav class="menu__body">
+                  <div class="menu__inner">
+                    <ul class="menu__list" data-spoilers data-one-spoiler>
+                      <li class="menu__item submenu">
+                        <a class="menu__link _icon-apple" href="#">Apple</a>
+                        <button class="menu__arrow _icon-arrow-menu" data-spoiler type="button"></button>
+                        <ul class="submenu__list">
+                          <li><a class="submenu__link" href="#">Macbook Air</a></li>
+                          <li><a class="submenu__link" href="#">Macbook Pro</a></li>
+                          <li><a class="submenu__link" href="#">iPads</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu__item submenu">
+                        <a class="menu__link _icon-laptops" href="#">Laptops</a>
+                        <button class="menu__arrow _icon-arrow-menu" data-spoiler type="button"></button>
+                        <ul class="submenu__list">
+                          <li><a class="submenu__link" href="#">Apple Laptops</a></li>
+                          <li><a class="submenu__link" href="#">Lenovo Laptops</a></li>
+                          <li><a class="submenu__link" href="#">Acer Laptops</a></li>
+                          <li><a class="submenu__link" href="#">HP Laptops</a></li>
+                          <li><a class="submenu__link" href="#">Toshiba Laptops</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu__item submenu">
+                        <a class="menu__link _icon-desktop" href="#">Desktop computers</a>
+                        <button class="menu__arrow _icon-arrow-menu" data-spoiler type="button"></button>
+                        <ul class="submenu__list">
+                          <li><a class="submenu__link" href="#">Dell Computers</a></li>
+                          <li><a class="submenu__link" href="#">HP Computers</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu__item">
+                        <a class="menu__link _icon-monitors" href="#">Monitors</a>
+                      </li>
+                      <li class="menu__item submenu">
+                        <a class="menu__link _icon-chromebooks" href="#">Chromebooks</a>
+                        <button class="menu__arrow _icon-arrow-menu" data-spoiler type="button"></button>
+                        <ul class="submenu__list">
+                          <li><a class="submenu__link" href="#">HP Chromebooks</a></li>
+                          <li><a class="submenu__link" href="#">Acer Chromebooks</a></li>
+                          <li><a class="submenu__link" href="#">Samsung Chromebooks</a></li>
+                          <li><a class="submenu__link" href="#">Lenovo Chromebooks</a></li>
+                          <li><a class="submenu__link" href="#">Dell Chromebooks</a></li>
+                          <li><a class="submenu__link" href="#">Toshiba Chromebooks</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <a class="header__promo promo _icon-heart" data-da=".menu__list,767.98,first" href="#">Valentine's Day Deals</a>
+            <a class="header__promo hot _icon-hot" data-da=".menu__list,767.98,first" href="#">Hot Deals</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+				<section class="account">
+					<div class="container">
+						<ul class="breadcrumb">
+							<li class="_icon-breadcrumb"><a href="../">Home</a></li>
+							<li>Account</li>
+						</ul>
+						<div class="profile">
+							<div class="profile__top">
+								<div class="profile__user">
+									<div class="profile__icon"></div>
+									<p class="profile__name">Mike Orange</p>
+								</div>
+								<nav class="profile__menu menu-profile">
+									<ul class="menu-profile__list">
+										<li class="menu-profile__item">
+											<a class="menu-profile__link" href="personal-data.html">Personal data</a>
+										</li>
+										<li class="menu-profile__item active">
+											<!-- <p class="menu-profile__link">Order history</p> -->
+											<a class="menu-profile__link" href="order-history.html">Order history</a>
+										</li>
+										<li class="menu-profile__item">
+											<a class="menu-profile__link" href="addres-book.html">Addres book</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="profile__content order">
+								<h1 class="profile__title title-1">Order history</h1>
+								<div class="order__body">
+									<ul class="order__list">
+										<div class="order__caption">
+											<p class="order__param">Purchase date</p>
+											<p class="order__param">Order number</p>
+											<p class="order__param">Sum</p>
+											<p class="order__param">Status</p>
+										</div>
+										<li class="order__item">
+											<ul class="order__sublist">
+												<li class="order__subitem">
+													<p class="order__param">Purchase date</p>
+													<p class="order__value">December 17, 2021</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Order number</p>
+													<p class="order__value">№ 7275889</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Sum</p>
+													<p class="order__value">$347</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Status</p>
+													<p class="order__value">Order completed</p>
+												</li>
+											</ul>
+										</li>
+										<li class="order__item">
+											<ul class="order__sublist">
+												<li class="order__subitem">
+													<p class="order__param">Purchase date</p>
+													<p class="order__value">December 17, 2021</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Order number</p>
+													<p class="order__value">№ 7275889</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Sum</p>
+													<p class="order__value">$347</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Status</p>
+													<p class="order__value">Order completed</p>
+												</li>
+											</ul>
+										</li>
+										<li class="order__item">
+											<ul class="order__sublist">
+												<li class="order__subitem">
+													<p class="order__param">Purchase date</p>
+													<p class="order__value">December 17, 2021</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Order number</p>
+													<p class="order__value">№ 7275889</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Sum</p>
+													<p class="order__value">$347</p>
+												</li>
+												<li class="order__subitem">
+													<p class="order__param">Status</p>
+													<p class="order__value">Order completed</p>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="recommended">
+					<div class="container">
+						<div class="recommended__inner">
+							<div class="titles">
+								<h2 class="recommended__title title-2">Recommended for you</h2>
+								<p class="titles__subtitle">Your personalized product recommendations</p>
+							</div>
+							<div class="recommended__slider">
+								<div class="recommended__item recommended-item">
+									<div class="recommended-item__top recommended-top">
+										<div class="recommended-top__body recommended-top__body--1">
+											<div class="recommended-top__category">
+												<p class="recommended-top__discount">-13% OFF</p>
+												<p class="recommended-top__name">Bestseller</p>
+											</div>
+										</div>
+										<a class="recommended-item__picture" href="#">
+											<picture><source srcset="../img/recommended/item-1.webp" type="image/webp"><img src="../img/recommended/item-1.jpg" alt="Apple MacBook Pro"></picture>
+										</a>
+									</div>
+									<div class="recommended-item__box" data-da=".recommended-top__body--1,767.98">
+										<div class="rating">
+											<div class="rating__stars">
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+											</div>
+											<p class="rating__text">244 <span>reviews</span></p>
+										</div>
+										<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+										<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+									</div>
+									<p class="recommended-item__info">Ends in: 06:12:24</p>
+									<p class="recommended-item__price recommended-item__price--1">
+										<span class="recommended-item__actual">AED 580.00</span>
+										<span class="recommended-item__old">AED 670.00</span>
+									</p>
+									<div class="recommended-item__btns">
+										<a class="recommended-item__more" href="#">Learn More</a>
+										<div class="details">
+											<button class="heart _icon-heart" data-da=".recommended-item__price--1,991.98"></button>
+											<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+											<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+											<div class="characteristics">
+												<p class="characteristics__info _icon-processor">
+													Processor:
+													<span>i5-5257U</span>
+												</p>
+												<p class="characteristics__info _icon-os">
+													OS:
+													<span>MAC OS</span>
+												</p>
+												<p class="characteristics__info _icon-ram">
+													RAM:
+													<span>8GB</span>
+												</p>
+												<p class="characteristics__info _icon-disk">
+													Hard Disk:
+													<span>256GB SSD</span>
+												</p>
+												<p class="characteristics__info _icon-gpu">
+													GPU:
+													<span class="points">Intel Iris 6100 graphics</span>
+												</p>
+											</div>
+											<p class="recommended-item__info">Ends in: 06:12:24</p>
+											<p class="recommended-item__price">
+												<span class="recommended-item__actual">AED 580.00</span>
+												<span class="recommended-item__old">AED 670.00</span>
+											</p>
+										</div>
+										<a class="recommended-item__buy _icon-cart" href="#"></a>
+									</div>
+								</div>
+								<div class="recommended__item recommended-item">
+									<div class="recommended-item__top recommended-top">
+										<div class="recommended-top__body recommended-top__body--2">
+											<div class="recommended-top__category">
+												<p class="recommended-top__discount">-13% OFF</p>
+												<p class="recommended-top__name">Bestseller</p>
+											</div>
+										</div>
+										<a class="recommended-item__picture" href="#">
+											<picture><source srcset="../img/recommended/item-2.webp" type="image/webp"><img src="../img/recommended/item-2.jpg" alt="Apple MacBook Pro"></picture>
+										</a>
+									</div>
+									<div class="recommended-item__box" data-da=".recommended-top__body--2,767.98">
+										<div class="rating">
+											<div class="rating__stars">
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+											</div>
+											<p class="rating__text">244 <span>reviews</span></p>
+										</div>
+										<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+										<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+									</div>
+									<p class="recommended-item__info">Ends in: 06:12:24</p>
+									<p class="recommended-item__price recommended-item__price--2">
+										<span class="recommended-item__actual">AED 580.00</span>
+										<span class="recommended-item__old">AED 670.00</span>
+									</p>
+									<div class="recommended-item__btns">
+										<a class="recommended-item__more" href="#">Learn More</a>
+										<div class="details">
+											<button class="heart _icon-heart" data-da=".recommended-item__price--2,991.98"></button>
+											<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+											<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+											<div class="characteristics">
+												<p class="characteristics__info _icon-processor">
+													Processor:
+													<span>i5-5257U</span>
+												</p>
+												<p class="characteristics__info _icon-os">
+													OS:
+													<span>MAC OS</span>
+												</p>
+												<p class="characteristics__info _icon-ram">
+													RAM:
+													<span>8GB</span>
+												</p>
+												<p class="characteristics__info _icon-disk">
+													Hard Disk:
+													<span>256GB SSD</span>
+												</p>
+												<p class="characteristics__info _icon-gpu">
+													GPU:
+													<span class="points">Intel Iris 6100 graphics</span>
+												</p>
+											</div>
+											<p class="recommended-item__info">Ends in: 06:12:24</p>
+											<p class="recommended-item__price">
+												<span class="recommended-item__actual">AED 580.00</span>
+												<span class="recommended-item__old">AED 670.00</span>
+											</p>
+										</div>
+										<a class="recommended-item__buy _icon-cart" href="#"></a>
+									</div>
+								</div>
+								<div class="recommended__item recommended-item">
+									<div class="recommended-item__top recommended-top">
+										<div class="recommended-top__body recommended-top__body--3">
+											<div class="recommended-top__category">
+												<p class="recommended-top__discount">-13% OFF</p>
+												<p class="recommended-top__name">Bestseller</p>
+											</div>
+										</div>
+										<a class="recommended-item__picture" href="#">
+											<picture><source srcset="../img/recommended/item-1.webp" type="image/webp"><img src="../img/recommended/item-1.jpg" alt="Apple MacBook Pro"></picture>
+										</a>
+									</div>
+									<div class="recommended-item__box" data-da=".recommended-top__body--3,767.98">
+										<div class="rating">
+											<div class="rating__stars">
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+											</div>
+											<p class="rating__text">244 <span>reviews</span></p>
+										</div>
+										<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+										<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+									</div>
+									<p class="recommended-item__info">Ends in: 06:12:24</p>
+									<p class="recommended-item__price recommended-item__price--3">
+										<span class="recommended-item__actual">AED 580.00</span>
+										<span class="recommended-item__old">AED 670.00</span>
+									</p>
+									<div class="recommended-item__btns">
+										<a class="recommended-item__more" href="#">Learn More</a>
+										<div class="details">
+											<button class="heart _icon-heart" data-da=".recommended-item__price--3,991.98"></button>
+											<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+											<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+											<div class="characteristics">
+												<p class="characteristics__info _icon-processor">
+													Processor:
+													<span>i5-5257U</span>
+												</p>
+												<p class="characteristics__info _icon-os">
+													OS:
+													<span>MAC OS</span>
+												</p>
+												<p class="characteristics__info _icon-ram">
+													RAM:
+													<span>8GB</span>
+												</p>
+												<p class="characteristics__info _icon-disk">
+													Hard Disk:
+													<span>256GB SSD</span>
+												</p>
+												<p class="characteristics__info _icon-gpu">
+													GPU:
+													<span class="points">Intel Iris 6100 graphics</span>
+												</p>
+											</div>
+											<p class="recommended-item__info">Ends in: 06:12:24</p>
+											<p class="recommended-item__price">
+												<span class="recommended-item__actual">AED 580.00</span>
+												<span class="recommended-item__old">AED 670.00</span>
+											</p>
+										</div>
+										<a class="recommended-item__buy _icon-cart" href="#"></a>
+									</div>
+								</div>
+								<div class="recommended__item recommended-item">
+									<div class="recommended-item__top recommended-top">
+										<div class="recommended-top__body recommended-top__body--4">
+											<div class="recommended-top__category">
+												<p class="recommended-top__discount">-13% OFF</p>
+												<p class="recommended-top__name">Bestseller</p>
+											</div>
+										</div>
+										<a class="recommended-item__picture" href="#">
+											<picture><source srcset="../img/recommended/item-3.webp" type="image/webp"><img src="../img/recommended/item-3.jpg" alt="Apple MacBook Pro"></picture>
+										</a>
+									</div>
+									<div class="recommended-item__box" data-da=".recommended-top__body--4,767.98">
+										<div class="rating">
+											<div class="rating__stars">
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+											</div>
+											<p class="rating__text">244 <span>reviews</span></p>
+										</div>
+										<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+										<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+									</div>
+									<p class="recommended-item__info">Ends in: 06:12:24</p>
+									<p class="recommended-item__price recommended-item__price--4">
+										<span class="recommended-item__actual">AED 580.00</span>
+										<span class="recommended-item__old">AED 670.00</span>
+									</p>
+									<div class="recommended-item__btns">
+										<a class="recommended-item__more" href="#">Learn More</a>
+										<div class="details">
+											<button class="heart _icon-heart" data-da=".recommended-item__price--4,991.98"></button>
+											<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+											<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+											<div class="characteristics">
+												<p class="characteristics__info _icon-processor">
+													Processor:
+													<span>i5-5257U</span>
+												</p>
+												<p class="characteristics__info _icon-os">
+													OS:
+													<span>MAC OS</span>
+												</p>
+												<p class="characteristics__info _icon-ram">
+													RAM:
+													<span>8GB</span>
+												</p>
+												<p class="characteristics__info _icon-disk">
+													Hard Disk:
+													<span>256GB SSD</span>
+												</p>
+												<p class="characteristics__info _icon-gpu">
+													GPU:
+													<span class="points">Intel Iris 6100 graphics</span>
+												</p>
+											</div>
+											<p class="recommended-item__info">Ends in: 06:12:24</p>
+											<p class="recommended-item__price">
+												<span class="recommended-item__actual">AED 580.00</span>
+												<span class="recommended-item__old">AED 670.00</span>
+											</p>
+										</div>
+										<a class="recommended-item__buy _icon-cart" href="#"></a>
+									</div>
+								</div>
+								<div class="recommended__item recommended-item">
+									<div class="recommended-item__top recommended-top">
+										<div class="recommended-top__body recommended-top__body--5">
+											<div class="recommended-top__category">
+												<p class="recommended-top__discount">-13% OFF</p>
+												<p class="recommended-top__name">Bestseller</p>
+											</div>
+										</div>
+										<a class="recommended-item__picture" href="#">
+											<picture><source srcset="../img/recommended/item-2.webp" type="image/webp"><img src="../img/recommended/item-2.jpg" alt="Apple MacBook Pro"></picture>
+										</a>
+									</div>
+									<div class="recommended-item__box" data-da=".recommended-top__body--5,767.98">
+										<div class="rating">
+											<div class="rating__stars">
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+											</div>
+											<p class="rating__text">244 <span>reviews</span></p>
+										</div>
+										<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+										<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+									</div>
+									<p class="recommended-item__info">Ends in: 06:12:24</p>
+									<p class="recommended-item__price recommended-item__price--5">
+										<span class="recommended-item__actual">AED 580.00</span>
+										<span class="recommended-item__old">AED 670.00</span>
+									</p>
+									<div class="recommended-item__btns">
+										<a class="recommended-item__more" href="#">Learn More</a>
+										<div class="details">
+											<button class="heart _icon-heart" data-da=".recommended-item__price--5,991.98"></button>
+											<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+											<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+											<div class="characteristics">
+												<p class="characteristics__info _icon-processor">
+													Processor:
+													<span>i5-5257U</span>
+												</p>
+												<p class="characteristics__info _icon-os">
+													OS:
+													<span>MAC OS</span>
+												</p>
+												<p class="characteristics__info _icon-ram">
+													RAM:
+													<span>8GB</span>
+												</p>
+												<p class="characteristics__info _icon-disk">
+													Hard Disk:
+													<span>256GB SSD</span>
+												</p>
+												<p class="characteristics__info _icon-gpu">
+													GPU:
+													<span class="points">Intel Iris 6100 graphics</span>
+												</p>
+											</div>
+											<p class="recommended-item__info">Ends in: 06:12:24</p>
+											<p class="recommended-item__price">
+												<span class="recommended-item__actual">AED 580.00</span>
+												<span class="recommended-item__old">AED 670.00</span>
+											</p>
+										</div>
+										<a class="recommended-item__buy _icon-cart" href="#"></a>
+									</div>
+								</div>
+								<div class="recommended__item recommended-item">
+									<div class="recommended-item__top recommended-top">
+										<div class="recommended-top__body recommended-top__body--6">
+											<div class="recommended-top__category">
+												<p class="recommended-top__discount">-13% OFF</p>
+												<p class="recommended-top__name">Bestseller</p>
+											</div>
+										</div>
+										<a class="recommended-item__picture" href="#">
+											<picture><source srcset="../img/recommended/item-1.webp" type="image/webp"><img src="../img/recommended/item-1.jpg" alt="Apple MacBook Pro"></picture>
+										</a>
+									</div>
+									<div class="recommended-item__box" data-da=".recommended-top__body--6,767.98">
+										<div class="rating">
+											<div class="rating__stars">
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+												<div class="rating__star _icon-star-rating"></div>
+											</div>
+											<p class="rating__text">244 <span>reviews</span></p>
+										</div>
+										<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+										<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+									</div>
+									<p class="recommended-item__info">Ends in: 06:12:24</p>
+									<p class="recommended-item__price recommended-item__price--6">
+										<span class="recommended-item__actual">AED 580.00</span>
+										<span class="recommended-item__old">AED 670.00</span>
+									</p>
+									<div class="recommended-item__btns">
+										<a class="recommended-item__more" href="#">Learn More</a>
+										<div class="details">
+											<button class="heart _icon-heart" data-da=".recommended-item__price--6,991.98"></button>
+											<a class="recommended-item__title" href="#">Apple MacBook Pro</a>
+											<p class="recommended-item__text points">Refurbished, A1502 ME864LL/<span> </span>A - Retina Late</p>
+											<div class="characteristics">
+												<p class="characteristics__info _icon-processor">
+													Processor:
+													<span>i5-5257U</span>
+												</p>
+												<p class="characteristics__info _icon-os">
+													OS:
+													<span>MAC OS</span>
+												</p>
+												<p class="characteristics__info _icon-ram">
+													RAM:
+													<span>8GB</span>
+												</p>
+												<p class="characteristics__info _icon-disk">
+													Hard Disk:
+													<span>256GB SSD</span>
+												</p>
+												<p class="characteristics__info _icon-gpu">
+													GPU:
+													<span class="points">Intel Iris 6100 graphics</span>
+												</p>
+											</div>
+											<p class="recommended-item__info">Ends in: 06:12:24</p>
+											<p class="recommended-item__price">
+												<span class="recommended-item__actual">AED 580.00</span>
+												<span class="recommended-item__old">AED 670.00</span>
+											</p>
+										</div>
+										<a class="recommended-item__buy _icon-cart" href="#"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="trustpilot">
+						<div class="container">
+							<div class="trustpilot__inner">
+								<div class="trustpilot__body">
+									<div class="trustpilot__logo">
+										<img src="../img/icons/icons.svg#trustpilot" alt="trustpilot logo">
+										<span class="_icon-trustpilot"></span>
+									</div>
+									<div class="trustpilot__info">
+										<div class="trustpilot__rating">
+											<div class="trustpilot__stars">
+												<div class="trustpilot__star _icon-star"></div>
+												<div class="trustpilot__star _icon-star"></div>
+												<div class="trustpilot__star _icon-star"></div>
+												<div class="trustpilot__star _icon-star"></div>
+												<div class="trustpilot__star _icon-star"></div>
+											</div>
+											<p class="trustpilot__num">4.8</p>
+										</div>
+										<div class="trustpilot__descr">
+											<p class="trustpilot__text">Reviews 1342</p>
+											<p class="trustpilot__text">Excellent</p>
+										</div>
+									</div>
+								</div>
+								<div class="trustpilot__box">
+									<a class="trustpilot__plus _icon-warranty" href="../benefits.html"><span>1 Year Warranty</span></a>
+									<a class="trustpilot__plus _icon-money-back" href="../benefits.html"><span>30 Day Money-Back</span></a>
+									<a class="trustpilot__plus _icon-shipping" href="../benefits.html"><span>Free Shipping</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				<section class="popular-queries">
+  <div class="container">
+    <div class="popular-queries__inner">
+      <div class="titles">
+        <h2 class="popular-queries__title title-2">Popular queries</h2>
+        <p class="titles__subtitle">Searches so popular -  you can't sit with them</p>
+      </div>
+      <ul class="popular-queries__list">
+        <li class="popular-queries__item">
+          <a class="popular-queries__link" href="#">Apple MacBook Pro</a>
+        </li>
+        <li class="popular-queries__item">
+          <a class="popular-queries__link" href="#">iPads 2</a>
+        </li>
+        <li class="popular-queries__item">
+          <a class="popular-queries__link" href="#">iPads pro 12.9</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+        <section class="sitemap">
+          <div class="container">
+            <div class="sitemap__inner">
+              <div class="products">
+                <h2 class="products__title title-2">All our products</h2>
+                <p class="products__subtitle">Huge selection of products, in stock, and ready to go</p>
+              </div>
+              <div class="sitemap__content content-sitemap">
+								<div class="content-sitemap__column">
+									<h4 class="content-sitemap__title title-4">Brands</h4>
+									<ul class="content-sitemap__list">
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Brands</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Dell</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">HP</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Lenovo</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Acer</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Toshiba</a>
+										</li>
+									</ul>
+								</div>
+								<div class="content-sitemap__column">
+									<h4 class="content-sitemap__title title-4">Apple</h4>
+									<ul class="content-sitemap__list">
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Macbook Air</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Macbook Pro</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">IPad</a>
+										</li>
+									</ul>
+								</div>
+								<div class="content-sitemap__column">
+									<h4 class="content-sitemap__title title-4">Laptops</h4>
+									<ul class="content-sitemap__list">
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Apple laptops</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Dell laptops</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">HP laptops</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Lenovo laptops</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Acer laptops</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Toshiba laptops</a>
+										</li>
+									</ul>
+								</div>
+								<div class="content-sitemap__column">
+									<h4 class="content-sitemap__title title-4">Chromebooks</h4>
+									<ul class="content-sitemap__list">
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">HP<span> сhromebooks</span></a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Acer<span> сhromebooks</span></a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Samsung<span> сhromebooks</span></a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Lenovo<span> сhromebooks</span></a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Dell<span> сhromebooks</span></a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Toshiba<span> сhromebooks</span></a>
+										</li>
+									</ul>
+								</div>
+								<div class="content-sitemap__column">
+									<h4 class="content-sitemap__title title-4">Desktop Computers</h4>
+									<ul class="content-sitemap__list">
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">Dell computers</a>
+										</li>
+										<li class="content-sitemap__item">
+											<a class="content-sitemap__link" href="#">HP computers</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+            </div>
+          </div>
+        </section>
+        <section class="what-is">
+          <div class="container">
+            <div class="what-is__inner">
+              <div class="what-is__items">
+                <div class="what-is__item">
+                  <h2 class="what-is__title what-is__big-title title-2">What is the REBOX IT?</h2>
+                  <p class="what-is__text">
+                    CRS launched REBOX-IT in 2020, an international ecommerce website for consumers to buy refurbished IT equipment that they can trust, at deep discounts to new ones, and backed by a 12-month warranty; from computers to small household appliances. All of our refurbished products are of high quality and efficiency, and we cover all of the most popular brands, including (APPLE-DELL-LENOVO-HP-ACER).
+                  </p>
+                </div>
+                <div class="what-is__item">
+                  <h3 class="what-is__title title-3">Is it better to buy it refurbished or used?</h3>
+                  <p class="what-is__text">
+                    The answer is simple: refurbished. The primary difference between "refurbished" and "used" products is that refurbished products have been tested and verified to function properly, and thus are defect-free, whereas "used" products may or may not be defective, but the refurbished is always the best quality The answer is simple: refurbished. The primary difference between "refurbished" and "used" products is that refurbished products have been tested and verified to function properly, and thus are defect-free, whereas "used" products may or may not be defective, but the refurbished is always the best quality
+                  </p>
+                </div>
+                <div class="what-is__item">
+                  <h3 class="what-is__title title-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae?</h3>
+                  <p class="what-is__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur inventore suscipit ea, aspernatur nobis deleniti accusantium? Eveniet minima veritatis ullam explicabo, expedita possimus error consequuntur eos modi officiis autem velit illum vero laudantium quaerat facere est culpa enim iste quas quibusdam vel accusamus molestias! Vitae veniam labore enim voluptates necessitatibus amet, explicabo adipisci? Veniam possimus, necessitatibus voluptatum nulla dolorem sunt error accusamus sequi esse aliquid exercitationem aliquam accusantium consectetur cum ipsum rem odio facere? Vel impedit temporibus quia ex molestiae excepturi officiis aperiam. Est minima quam quasi hic inventore reiciendis laboriosam voluptatibus molestiae iusto nisi quisquam dolore praesentium sit facere fugiat beatae saepe incidunt dignissimos neque dolorem ad iure, obcaecati pariatur. Laborum voluptatibus ullam doloremque eius eum accusantium sequi assumenda facilis soluta commodi est laudantium quia molestias nobis, cumque nesciunt atque. Atque, quo officia delectus recusandae tenetur nobis, beatae cumque neque explicabo corrupti at architecto a assumenda, voluptas earum?
+                  </p>
+                </div>
+                <div class="what-is__item">
+                  <h3 class="what-is__title title-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae?</h3>
+                  <p class="what-is__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur inventore suscipit ea, aspernatur nobis deleniti accusantium? Eveniet minima veritatis ullam explicabo, expedita possimus error consequuntur eos modi officiis autem velit illum vero laudantium quaerat facere est culpa enim iste quas quibusdam vel accusamus molestias! Vitae veniam labore enim voluptates necessitatibus amet, explicabo adipisci? Veniam possimus, necessitatibus voluptatum nulla dolorem sunt error accusamus sequi esse aliquid exercitationem aliquam accusantium consectetur cum ipsum rem odio facere? Vel impedit temporibus quia ex molestiae excepturi officiis aperiam. Est minima quam quasi hic inventore reiciendis laboriosam voluptatibus molestiae iusto nisi quisquam dolore praesentium sit facere fugiat beatae saepe incidunt dignissimos neque dolorem ad iure, obcaecati pariatur. Laborum voluptatibus ullam doloremque eius eum accusantium sequi assumenda facilis soluta commodi est laudantium quia molestias nobis, cumque nesciunt atque. Atque, quo officia delectus recusandae tenetur nobis, beatae cumque neque explicabo corrupti at architecto a assumenda, voluptas earum?
+                  </p>
+                </div>
+                <div class="what-is__item">
+                  <h3 class="what-is__title title-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae?</h3>
+                  <p class="what-is__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur inventore suscipit ea, aspernatur nobis deleniti accusantium? Eveniet minima veritatis ullam explicabo, expedita possimus error consequuntur eos modi officiis autem velit illum vero laudantium quaerat facere est culpa enim iste quas quibusdam vel accusamus molestias! Vitae veniam labore enim voluptates necessitatibus amet, explicabo adipisci? Veniam possimus, necessitatibus voluptatum nulla dolorem sunt error accusamus sequi esse aliquid exercitationem aliquam accusantium consectetur cum ipsum rem odio facere? Vel impedit temporibus quia ex molestiae excepturi officiis aperiam. Est minima quam quasi hic inventore reiciendis laboriosam voluptatibus molestiae iusto nisi quisquam dolore praesentium sit facere fugiat beatae saepe incidunt dignissimos neque dolorem ad iure, obcaecati pariatur. Laborum voluptatibus ullam doloremque eius eum accusantium sequi assumenda facilis soluta commodi est laudantium quia molestias nobis, cumque nesciunt atque. Atque, quo officia delectus recusandae tenetur nobis, beatae cumque neque explicabo corrupti at architecto a assumenda, voluptas earum?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+			</main>
+      <footer class="footer">
+				<div class="footer__body">
+          <div class="container">
+            <div class="footer__inner">
+              <div class="footer__top">
+                <div class="footer__about">
+                  <a class="footer__logo" href="../">
+                    <img src="../img/icons/icons.svg#footer-logo" alt="logo">
+                  </a>
+                  <p class="footer__text">
+                    We professionally refurbish and retail IT equipment to consumers and businesses, we are one of Europe's leading Microsoft Authorized Refurbishes.
+                  </p>
+                </div>
+                <div class="footer__box">
+                  <div class="footer__column">
+                    <h3 class="footer__title title-3">Account</h3>
+                    <ul class="footer__list">
+                      <li class="footer__item">
+                        <a class="footer__link" href="../account/personal-data.html">Account</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="#">My wish list</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../account/order-history.html">Order History</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../account/addres-book.html">Address Book</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../privacy-policy.html">Privacy Policy</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer__column">
+                    <h3 class="footer__title title-3">Navigation</h3>
+                    <ul class="footer__list">
+                      <li class="footer__item">
+                        <a class="footer__link" href="#">Catalog</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../about.html">About us</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="#">Reviews</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../blog.html">Blog</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../sitemap.html">Sitemap</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer__column">
+                    <h3 class="footer__title title-3">Help and order</h3>
+                    <ul class="footer__list">
+                      <li class="footer__item">
+                        <a class="footer__link" href="#">Delivery information</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../faq.html">FAQ</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="#">Help center</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="#">Return & Refund</a>
+                      </li>
+                      <li class="footer__item">
+                        <a class="footer__link" href="../terms-and-conditions.html">Terms & Conditions</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer__contacts">
+                    <h3 class="footer__title title-3">Contact us</h3>
+                    <div class="footer__links">
+                      <a class="footer__email _icon-email" href="mailto:support@rebox-it.com"><span>support@rebox-it.com</span></a>
+                      <a class="footer__phone _icon-phone" href="tel:+99999999999"><span>+999 9 999 9999</span></a>
+                      <div class="footer__social social">
+                        <a class="social__link social__linkedin _icon-linkedin" href="#"></a>
+                        <a class="social__link social__instagram _icon-instagram" href="#"></a>
+                        <a class="social__link social__facebook _icon-facebook" href="#"></a>
+                        <a class="social__link social__youtube _icon-youtube" href="#"></a>
+                        <a class="social__link social__twitter _icon-twitter" href="#"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__brands brands-footer">
+                <a class="brands-footer__icon _icon-apple" href="#"></a>
+                <a class="brands-footer__icon _icon-hp" href="#"></a>
+                <a class="brands-footer__link _icon-dell" href="#"></a>
+                <a class="brands-footer__link _icon-lenovo" href="#"></a>
+                <a class="brands-footer__link _icon-acer" href="#"></a>
+                <a class="brands-footer__chat _icon-chat" href="#">
+                  <span>Live Chat</span>
+                </a>
+              </div>
+              <div class="footer__trustpilot trustpilot-footer">
+                <div class="trustpilot-footer__item">
+                  <div class="trustpilot-footer__logo">
+                    <img src="../img/icons/icons.svg#trustpilot" alt="trustpilot logo">
+                    <span class="_icon-trustpilot"></span>
+                  </div>
+                  <div class="trustpilot-footer__info">
+                    <div class="trustpilot-footer__rating">
+                      <div class="trustpilot-footer__stars">
+                        <div class="trustpilot-footer__star _icon-star"></div>
+                        <div class="trustpilot-footer__star _icon-star"></div>
+                        <div class="trustpilot-footer__star _icon-star"></div>
+                        <div class="trustpilot-footer__star _icon-star"></div>
+                        <div class="trustpilot-footer__star _icon-star"></div>
+                      </div>
+                      <p class="trustpilot-footer__num">4.8</p>
+                    </div>
+                    <div class="trustpilot-footer__descr">
+                      <p class="trustpilot-footer__text">Reviews 1342</p>
+                      <p class="trustpilot-footer__text">Excellent</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__card card-footer">
+                  <p class="card-footer__text">Payment 100% secured</p>
+                  <div class="card-footer__items">
+                    <div class="card-footer__item">
+                      <img src="../img/icons/icons.svg#stripe" alt="icon stripe">
+                    </div>
+                    <div class="card-footer__item">
+                      <img src="../img/icons/icons.svg#mastercard" alt="icon mastercard">
+                    </div>
+                    <div class="card-footer__item">
+                      <img src="../img/icons/icons.svg#visa" alt="icon visa">
+                    </div>
+                    <div class="card-footer__item">
+                      <img src="../img/icons/icons.svg#paypal" alt="icon paypal">
+                    </div>
+                    <div class="card-footer__item">
+                      <img src="../img/icons/icons.svg#applepay" alt="icon applepay">
+                    </div>
+                    <div class="card-footer__item">
+                      <img src="../img/icons/icons.svg#googlepay" alt="icon googlepay">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="container">
+            <div class="footer__row">
+              <div class="footer__countries countries">
+                <a class="countries__item" href="#">
+                  <img src="../img/icons/icons.svg#uk" alt="UK flag">
+                  <span class="countries__name">UK</span>
+                </a>
+                <a class="countries__item" href="#">
+                  <img src="../img/icons/icons.svg#france" alt="Flag of France">
+                  <span class="countries__name">France</span>
+                </a>
+                <a class="countries__item" href="#">
+                  <img src="../img/icons/icons.svg#uae" alt="UAE flag">
+                  <span class="countries__name">UAE</span>
+                </a>
+              </div>
+              <a class="copyright" href="#">Copyright 2022 © All Rights Reserved</a>
+              <a class="designed" href="#">Design by HowSimpl</a>
+            </div>
+          </div>
+        </div>
+			</footer>
+    </div>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?_v=20230130172912"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20230130172912"></script>
+    <script src="../js/app.min.js?_v=20230130172912"></script>
+  </body>
+</html>
