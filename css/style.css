@@ -379,29 +379,6 @@ h6 {
   font-weight: inherit;
 }
 
-select {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-color: transparent;
-  border: none;
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  cursor: inherit;
-  color: inherit;
-  line-height: inherit;
-  z-index: 1;
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-option {
-  font-weight: inherit;
-}
-
 /* </NULLSTYLE> ========== */
 
 /* <COMMON> ================================================== */
@@ -635,6 +612,123 @@ html {
 }
 
 /* </COMMON> ================================================== */
+
+select {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  height: 0.0625rem;
+  width: 0.0625rem;
+}
+
+.select-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  width: 100%;
+  max-width: 15.625rem;
+}
+
+.select-wrap__text {
+  font-size: 1.125rem;
+  line-height: 1.3888888889;
+  color: #707070;
+  white-space: nowrap;
+}
+
+.select-wrap__label {
+  width: 100%;
+}
+
+.custom-select {
+  position: relative;
+  font-weight: 500;
+}
+
+.custom-select__current {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.3125rem;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease 0s;
+}
+
+.custom-select__current::before {
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  transform: rotate(90deg);
+  font-size: 0.625rem;
+  transition: transform 0.3s ease 0s;
+}
+
+.custom-select__current:active {
+  background-color: #ff6f42;
+  color: #fff;
+}
+
+.custom-select__list {
+  position: absolute;
+  width: 100%;
+  outline: 0.0625rem solid #3a3a3c;
+  border-radius: 0.25rem;
+  z-index: 2;
+  max-width: 12.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+  margin-top: 1.25rem;
+  pointer-events: none;
+}
+
+.custom-select__item {
+  cursor: pointer;
+  padding: 0.625rem;
+  background-color: #fff;
+  min-width: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+.custom-select__item.active {
+  background-color: #3a3a3c;
+  color: #fff;
+}
+
+.custom-select__item:active {
+  background-color: #ff6f42;
+  color: #fff;
+}
+
+.custom-select--show .custom-select__current {
+  background-color: #3a3a3c;
+  color: #fff;
+}
+
+.custom-select--show .custom-select__current::before {
+  transform: rotate(-90deg);
+}
+
+.custom-select--show .custom-select__current:active {
+  background-color: #ff6f42;
+  color: #fff;
+}
+
+.custom-select--show .custom-select__list {
+  margin-top: 0.3125rem;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 
 /* <HEADER> ==================================================*/
 
@@ -4337,57 +4431,6 @@ html {
   position: absolute;
   top: -2.1875rem;
   z-index: -10000;
-}
-
-.sorter {
-  display: flex;
-  gap: 0.4375rem;
-}
-
-.sorter__label {
-  font-size: 1.125rem;
-  line-height: 1.3888888889;
-  color: #707070;
-}
-
-.sorter__select {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 1.3888888889;
-  position: relative;
-  width: -moz-max-content;
-  width: max-content;
-  border-radius: 0.25rem;
-  transition: background-color 0.3s ease 0s, color 0.3s ease 0s;
-}
-
-.sorter__select::before {
-  color: inherit;
-  pointer-events: none;
-  position: absolute;
-  right: 0.3125rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 0.9375rem;
-  aspect-ratio: 1;
-  transform: rotate(90deg);
-  font-size: 0.625rem;
-  z-index: 10000000000;
-}
-
-.sorter__select-box {
-  font-weight: 500;
-  padding: 0 1.6875rem 0 0.3125rem;
-}
-
-.sorter__select-box option {
-  font-weight: inherit;
-  background-color: #3a3a3c;
-  color: #fff;
 }
 
 /* </catalog> ========== */
@@ -8392,6 +8435,26 @@ html {
     color: #fff;
   }
 
+  .custom-select__current:hover {
+    background-color: #3a3a3c;
+    color: #fff;
+  }
+
+  .custom-select__current:active {
+    background-color: #ff6f42;
+    color: #fff;
+  }
+
+  .custom-select__item:hover {
+    background-color: #3a3a3c;
+    color: #fff;
+  }
+
+  .custom-select__item:active {
+    background-color: #ff6f42;
+    color: #fff;
+  }
+
   .header__promo:hover {
     background-color: #3a3a3c;
   }
@@ -8893,11 +8956,6 @@ html {
   .catalog-sort__label:hover::after {
     background-color: #fff;
     border-color: #ff6f42;
-  }
-
-  .sorter__select:hover {
-    background-color: #3a3a3c;
-    color: #fff;
   }
 
   .menu-profile__item.active:hover,
