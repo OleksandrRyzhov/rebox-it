@@ -4804,24 +4804,24 @@ select {
 
 /* <page-404> ========== */
 
-.main.page-404 {
+.page-404.main {
   padding: 6.25rem 0;
 }
 
-.main.page-404__inner {
+.page-404__inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2.5rem;
 }
 
-.main.page-404__icon {
+.page-404__icon {
   font-size: 10.75rem;
   color: #ff6f42;
   margin-bottom: 1.25rem;
 }
 
-.main.page-404__btn {
+.page-404__btn {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.2777777778;
@@ -4834,7 +4834,7 @@ select {
   transition: background-color 0.3s ease 0s;
 }
 
-.main.page-404__btn:active {
+.page-404__btn:active {
   background-color: #3a3a3c;
 }
 
@@ -6655,11 +6655,11 @@ select {
     margin-bottom: 0.75rem;
   }
 
-  .main.page-404 {
+  .page-404.main {
     padding: 4.5rem 0;
   }
 
-  .main.page-404__inner {
+  .page-404__inner {
     gap: 1.75rem;
   }
 
@@ -7605,7 +7605,7 @@ select {
 }
 
 @media (max-width: 47.9375em) {
-  .main.page-404__icon {
+  .page-404__icon {
     font-size: 8.75rem;
   }
 }
@@ -8027,7 +8027,7 @@ select {
 }
 
 @media (max-width: 37.4375em) {
-  .main.page-404__icon {
+  .page-404__icon {
     font-size: calc(
       70px + 320.45 * ((100vw - 320px) / 1280)
     );
@@ -8975,11 +8975,11 @@ select {
     color: #fff;
   }
 
-  .main.page-404__btn:hover {
+  .page-404__btn:hover {
     background-color: #171717;
   }
 
-  .main.page-404__btn:active {
+  .page-404__btn:active {
     background-color: #3a3a3c;
   }
 
